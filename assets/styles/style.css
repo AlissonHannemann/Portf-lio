@@ -43,6 +43,7 @@ header .conteiner {
     align-items: center;
     position: relative;
     position: fixed;
+    z-index: 1000;
 }
 
 header .conteiner i {
@@ -88,11 +89,12 @@ header .conteiner .select label .box {
 
 header .informacoes h2 {
     font-family: var(--fontInformacoes);
-    font-size: 27px;
+    font-size: 45px;
     color: #fff;
     padding: 0 13px;
     margin-top: 130px;
     font-weight: 300;
+    text-align: center;
 }
 
 header .informacoes span {
@@ -101,26 +103,29 @@ header .informacoes span {
 
 header .informacoes p {
     font-family: var(--fontInformacoes);
-    font-size: 14px;
-    color: #fff;
+    font-size: 25px;
+    color: rgb(155, 154, 154);
     padding: 0 13px;
-    margin-top: 15px;
+    margin-top: 30px;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 header .informacoes button {
-    font-size: 20px;
+    display: flex;
+    font-size: 25px;
     font-family: var(--fontInformacoes);
     color: #fff;
     background-color: var(--corTitulos);
     border: none;
-    padding: 5px 10px;
-    margin: 40px 13px;
+    padding: 10px 15px;
+    margin: 60px auto;
     border-radius: 5px;
 }
 
 header .caixa .imagem img {
     width: 250px;
+    display: none;
 }
 
 /* sobreMim */
@@ -271,10 +276,116 @@ header .caixa .imagem img {
     background-color: grey;
 }
 
-.projetos h2 {
+.projetos .titulo {
     font-size: 40px;
     font-family: var(--fontTitulos);
     color: var(--corTitulos);
     text-align: center;
     padding-top: 20px;
+}
+
+.projetos .conteinerOn {
+    background-color: #3c3f47;
+    width: 90%;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.projetos .conteinerOn h2 {
+    font-family: var(--fontTitulos);
+    font-size: 31px;
+    color: #fff;
+    padding-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 16px;
+}
+
+.projetos .conteinerOn p {
+    font-family: var(--fontInformacoes);
+    font-size: 23px;
+    color: rgb(155, 154, 154);
+    margin-left: 16px;
+}
+
+.projetos .conteinerOn img {
+    width: 30px;
+    margin: 19px 16px;
+}
+
+.projetos .conteinerOn button {
+    font-family: var(--fontInformacoes);
+    font-size: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 16px;
+    background-color: var(--corTitulos);
+    color: #fff;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+/* contato */
+
+.contato::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+}
+
+.contato {
+    background-color: #3c3f47;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.contato h2 {
+    font-family: var(--fontTitulos);
+    font-size: 40px;
+    color: var(--corTitulos);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contato .caixa {
+    margin-top: 23px;
+}
+
+.contato .caixa div {
+    background-color: var(--corFundo);
+    width: 70px;
+    height: 70px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.contato .caixa div i {
+    font-size: 35px;
+    color: var(--corTitulos);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+
+.contato .caixa p {
+    font-family: var(--fontInformacoes);
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contato .caixa .info {
+    color: rgb(155, 154, 154);
+    margin: 0;
 }
