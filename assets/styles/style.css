@@ -88,8 +88,8 @@ header .conteiner .select label .box {
 /* informacoes */
 
 header .informacoes h2 {
-    font-family: var(--fontInformacoes);
-    font-size: 45px;
+    font-family: var(--fontTitulos);
+    font-size: 50px;
     color: #fff;
     padding: 0 13px;
     margin-top: 130px;
@@ -102,7 +102,7 @@ header .informacoes span {
 }
 
 header .informacoes p {
-    font-family: var(--fontInformacoes);
+    font-family: var(--fontTitulos);
     font-size: 25px;
     color: rgb(155, 154, 154);
     padding: 0 13px;
@@ -114,11 +114,11 @@ header .informacoes p {
 header .informacoes button {
     display: flex;
     font-size: 25px;
-    font-family: var(--fontInformacoes);
+    font-family: var(--fontTitulos);
     color: #fff;
     background-color: var(--corTitulos);
     border: none;
-    padding: 10px 15px;
+    padding: 7px 15px;
     margin: 60px auto;
     border-radius: 5px;
 }
@@ -165,6 +165,7 @@ header .caixa .imagem img {
     font-size: 30px;
     color: var(--corTitulos);
     margin: 20px 20px;
+    font-weight: 300;
 }
 
 .sobreMim .caixa .biografia p {
@@ -234,6 +235,7 @@ header .caixa .imagem img {
     margin: 20px 20px;
     padding-top: 40px;
     text-align: center;
+    font-weight: 300;
 }
 
 .habilidades .conteiner .cont_hab {
@@ -282,6 +284,7 @@ header .caixa .imagem img {
     color: var(--corTitulos);
     text-align: center;
     padding-top: 20px;
+    font-weight: 300;
 }
 
 .projetos .conteinerOn {
@@ -300,10 +303,11 @@ header .caixa .imagem img {
     padding-top: 13px;
     margin-bottom: 13px;
     margin-left: 16px;
+    font-weight: 300;
 }
 
 .projetos .conteinerOn p {
-    font-family: var(--fontInformacoes);
+    font-family: var(--fontTitulos);
     font-size: 23px;
     color: rgb(155, 154, 154);
     margin-left: 16px;
@@ -315,8 +319,8 @@ header .caixa .imagem img {
 }
 
 .projetos .conteinerOn button {
-    font-family: var(--fontInformacoes);
-    font-size: 20px;
+    font-family: var(--fontTitulos);
+    font-size: 23px;
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
@@ -354,6 +358,7 @@ header .caixa .imagem img {
     color: var(--corTitulos);
     text-align: center;
     padding-top: 20px;
+    font-weight: 300;
 }
 
 .contato .caixa {
@@ -378,8 +383,8 @@ header .caixa .imagem img {
 }
 
 .contato .caixa p {
-    font-family: var(--fontInformacoes);
-    font-size: 22px;
+    font-family: var(--fontTitulos);
+    font-size: 25px;
     color: #fff;
     text-align: center;
     margin: 10px 0;
